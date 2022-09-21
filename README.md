@@ -48,6 +48,12 @@ python3 vulnerable-flask-app.py
 
 <img src="https://github.com/anil-yelken/Vulnerable-Flask-App/blob/main/vulnerable-flask-app.jpg">
 
+## Docker
+
+docker build . -t vulnerable-flask-app:test
+
+docker run -d -p 80:8081 vulnerable-flask-app:test
+
 ## Contact
 
 https://twitter.com/anilyelken06
